@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cse"
+    android:orientation="vertical"
+    android:background="@drawable/page2"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course List"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/button801"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Fundamentals"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+            <Button
+                android:id="@+id/button802"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="English I"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button803"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Physical, Inorganic And Analytic Chemisty"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button804"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Human Nutrition"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button805"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intro To Food Science and Tech"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button806"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intro To Marketing"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button807"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Art Of Living"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button808"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food BioTechnology"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button809"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Engineering  Properties And Principle of Food"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button810"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biochemistry"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button811"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Statistics I"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button812"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baking And Confectionery Tech"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button813"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dietetics"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button814"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Human Physiology"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button815"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Organic Chemistry"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button816"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Methods for Nutritional Status"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button817"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unit Operations in food Industries"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button818"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unit Processing in food Industries"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

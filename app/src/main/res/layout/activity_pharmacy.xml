@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EEE"
+    android:background="@drawable/page2"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course List"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+
+
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/button301"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phar. Biotechnology"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                android:backgroundTint="#0D47A1"
+
+                />
+
+            <Button
+                android:id="@+id/button302"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Phar. Engineering"
+                android:textSize="18sp"
+                />
+
+            <Button
+                android:id="@+id/button303"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cosmetology"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button304"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phar. Management"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button305"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medicinal Chemistry III"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button306"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pham. Technology III"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button307"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biopharmaceutics and pham. II"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button308"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="next"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History Of Bangladesh"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Communication"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basic Electronics"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Object Oriented Programming"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Engineering Mathematics"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electrical Circuits"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Art of Living"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button216"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bangladesh Studies"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button217"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Programing and Problem Solving"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Discreate Mathematics"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button219"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mathematics II"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Mathematics I"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basic Physics"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

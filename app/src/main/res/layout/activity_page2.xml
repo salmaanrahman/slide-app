@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page2"
+    android:orientation="vertical"
+    android:background="@drawable/page2"
+    android:padding="20dp"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department List"
+        android:textSize="35sp"
+        android:textColor="#EDE7E7"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Science And Engineering"
+        android:textSize="18sp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/bottom_curved"
+        />
+    <Button
+    android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electrical And Electronic Engineering"
+        android:textSize="18sp"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pharmacy"
+        android:textSize="22sp"
+        />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Software Engineering"
+        android:textSize="22sp"
+        />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Environmental Science and Disaster"
+        android:textSize="18sp"
+        />
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Real Estate"
+        android:textSize="22sp"
+        />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tourism And Hospitality Management"
+        android:textSize="18sp"
+        />
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nutrition And Food Engineering"
+        android:textSize="22sp"
+        />
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Journalism Media and Communication"
+        android:textSize="18sp"
+
+        />
+
+
+
+
+</LinearLayout>

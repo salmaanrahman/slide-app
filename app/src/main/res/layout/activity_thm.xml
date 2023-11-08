@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cse"
+    android:orientation="vertical"
+    android:background="@drawable/page2"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course List"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/button701"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Front Office Management"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+            <Button
+                android:id="@+id/button702"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Intro To Culinary Arts And Hospitality"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button703"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fundamentals Of Food and beverage"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button704"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Housekeeping Managment"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button705"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Art Of Living"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button706"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intro To Marketing"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button707"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intro To Accounting"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button708"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intro To Economics"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button709"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Safety, Hygiene And Sanitation"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button710"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Networking And Info Tech"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button711"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English For Hospitality II"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button712"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intro To Management"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button713"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English For Hospitality II"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button714"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bangladesh studies"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button715"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Fundamentals"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button716"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intro to Business"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cse"
+    android:orientation="vertical"
+    android:background="@drawable/page2"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course List"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/button601"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contemporary Issues of RE"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+            <Button
+                android:id="@+id/button602"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="RE supply Chain Management"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button603"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RE Law and Public Policy"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button604"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Building, Construction Materials "
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button605"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Art Of Living"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button606"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Auto CAD in RE Design II"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button707"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Auto CAD in RE Design I"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button608"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fundamentals of Civil Engineering"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button709"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Statistics in RE"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button610"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fundamentals of Housing"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button611"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Financial Management"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button712"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artitectural Design in RE"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button613"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Business Mathematics in RE"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button614"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Principles of Marketing"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button615"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fundamentals of RE"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button616"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RE Economics"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button617"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RE Business Communication"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button618"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fundamentals of Accounting"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button619"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Principles of Urban Planning"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button620"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Principles of Management"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button621"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intro to Computers"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button622"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basic Functional English"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

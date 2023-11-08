@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cse"
+    android:orientation="vertical"
+    android:background="@drawable/page2"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course List"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/button501"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender and Environment"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+            <Button
+                android:id="@+id/button502"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Forest and Wildlife Management"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button503"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction to Environmental Science and Disaster Management"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button504"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Instrumental Methods for Environmental Analysis"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button505"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Water Resources Planning and Management"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button506"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Environmental Pollution and Management"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button507"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Environmental Hazard and Disaster Management"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button508"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Urban Waste and Effluent Management"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button509"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Urban Environmental Issues and Planning"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button510"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Environmental Engineering"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button511"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Environmental Modelling"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button512"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Environmental Monitoring and Auditing"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button513"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Climatic Disaster Management"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button514"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fundamentals of Hydrosphere"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button515"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Art of Living"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Library Users Guidelines and Features"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

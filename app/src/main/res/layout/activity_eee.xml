@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EEE"
+    android:background="@drawable/page2"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course List"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/button201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electro Fields And Waves"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+            <Button
+                android:id="@+id/button202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Continuous Signals and Linear System"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coordinate Geometry And Vector Analy."
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Energy Conversion I"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electronics I"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numerical Methods"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chemistry"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button208"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Physics"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electrical Circuits"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Differntial and Integral Calculas"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Art of Living"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Functional Bengali Language"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bangladesh studies"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ordinary and Partial Differntial Equa."
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linear Algebra And Complex Variable"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button216"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Programing I"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button217"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Professional English II"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basic Mechanical Engineering"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button219"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Circuit Simulation Laboratory"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electrical Circuits II"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

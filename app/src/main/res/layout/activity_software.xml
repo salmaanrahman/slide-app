@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EEE"
+    android:background="@drawable/page2"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course List"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/button401"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction to Software Engineering"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+            <Button
+                android:id="@+id/button402"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Continuous Signals and Linear System"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button403"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Fundamentals"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button404"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English I"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button405"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Physics I"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button406"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Structured Programming"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button407"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Software Development Capstone Project"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button408"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Structure "
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button409"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Discrete Mathematics"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button410"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mathematics II"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button411"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Art of Living"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button412"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Statistics I"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button413"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mathematics I"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button414"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Digital Electronics And Logic Design"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button415"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linear Algebra And Complex Variable"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button416"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Algorithms Design And Analysis "
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button417"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Software Requirement Specifications"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button418"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Object Oriented Concepts"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button419"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Theory of Computing"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button420"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Database System"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button421"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction to Robotics"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button422"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Operating System and System Programm"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cse"
+    android:orientation="vertical"
+    android:background="@drawable/page2"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course List"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/button901"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English II"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+            <Button
+                android:id="@+id/button902"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="International Communication and world Affairs"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button903"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BD Media Laws and Ethics"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button904"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History of Emergance Of BD"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button905"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Information Gathering and News Writing"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button906"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Interpersonal and Mass Communication"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button907"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Art Of Living"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button908"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English I"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button909"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bangla for Media"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button910"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Fundamentals"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button911"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Concept and Evolution of Journalism"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+            <Button
+                android:id="@+id/button912"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Concepts of Communication Process"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                />
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
